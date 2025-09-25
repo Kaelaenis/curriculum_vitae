@@ -1,0 +1,10 @@
+.pastel-btn {
+    background-color: #FFCBA4; /* light pastel orange */
+    color: #A65D4D;
+}
+
+.pastel-btn:hover {
+    background-color: #FFA07A; /* slightly darker pastel orange */
+    color: white;
+}
+

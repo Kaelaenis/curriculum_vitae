@@ -1,16 +1,29 @@
-<app-header></app-header>
+<!-- Header -->
+<header class="bg-body-tertiary">
+  <app-header></app-header>
+</header>
 
-<!-- Add form to test bootstrap -->
-<form class="p-3 mb-2 bg-light text-dark">
-  <div class="mb-3">
-    <label for="exampleInputEmail1" class="form-label">Email address</label>
-    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-    <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-  </div>
-  <div class="mb-3">
-    <label for="exampleInputPassword1" class="form-label">Password</label>
-    <input type="password" class="form-control" id="exampleInputPassword1">
-  </div>
-  </form>
+<!-- Routed views go here -->
+<router-outlet></router-outlet>
 
-<app-footer></app-footer>
+<!-- Main content -->
+<main class="container my-5 flex-fill">
+  <div class="row">
+    <div class="col-md-6 offset-md-2">
+      <h1 class="text-center">Valentin Coulon</h1>
+      <h3 class="text-center">C#/.Net Developer</h3>
+      <p class="text-center">Passionate about technology and development, I am eager to contribute my skills and enthusiasm to a dynamic team.</p>
+      <a href="#" class="btn pastel-btn d-block mb-3 text-center" style="max-width: 150px; margin: 0 auto;">
+        <i class="fas fa-briefcase"></i> View Resume
+      </a>
+    </div>
+    <div class="col-md-2 text-center">
+      <img src="assets/images/profile.jpg" alt="Profile Picture" class="img-fluid rounded-circle" style="max-width: 150px;">
+    </div>
+  </div>
+</main>
+
+<!-- Footer -->
+<footer class="bg-body-tertiary text-center mt-auto">
+  <app-footer></app-footer>
+</footer>
