@@ -3,13 +3,15 @@ import { RouterOutlet } from '@angular/router';
 
 import { Header } from './header/header';
 import { Footer } from './footer/footer';
+import { Main } from './main/main';
 
 @Component({
   selector: 'app-root',
   imports: [
     RouterOutlet,
     Header,
-    Footer
+    Footer,
+    Main
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
