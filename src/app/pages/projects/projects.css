@@ -1,0 +1,15 @@
+#project_picture {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 10px 10px;
+}
+
+#project_picture_default {
+    height: 150px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 10px 10px 10px 10px;
+}
