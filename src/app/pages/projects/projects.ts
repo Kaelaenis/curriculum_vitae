@@ -19,7 +19,7 @@ export class Projects {
         title: "Bot d'attribution rôles Discord",
         description: 'Un bot Discord permettant d\'attribuer des rôles automatiquement en fonction des réactions. Version initiale en Node.js avec Discord.js qui demande soit une hébergement permanent, soit un démarrage manuel.',
         technologies: ['Node.js', 'Discord.js'],
-        imageUrl: 'assets/images/discord-bot.jpg',
+        imageUrl: 'assets/images/discord-bot.png',
         link: 'https://github.com/Kaelaenis/Discord_reactionrolebot'
       },
       {
